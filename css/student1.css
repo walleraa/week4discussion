@@ -9,34 +9,58 @@ body{
     margin-top:15px;
   
  }
- ul li{
+ nav li{
     margin-left: 25px;
     list-style-type: upper-roman;
- }
-
- nav li{
-    background-color: aqua;
-    border: 2px solid black;
-    border-radius: 25px;
     display: inline-block;
     padding: 10px;
-    width:18%;
-    margin-right: 15px;
+    border-radius: 15px;
+    border-style: solid;
+    background-color: aqua;
+    border-color: green;
+    width: 20%;
+    margin: 20px;
  }
-
- main img{
-    width:24%;
-    box-sizing: border-box;
-    padding:15px;
-    border:6px dashed green;
-    margin:0;
+ 
+ img
+ {
+     width: 24%;
+     padding: 10px;
+     border-style: dashed;
+     border-color: red;
+     border-width: 2px;
+     margin: 0px;
+     box-sizing: border-box;
  }
 
  p{
-    line-height:2;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:darkslategray;
-    background-color: bisque;
-    margin-bottom: 10px;
-    text-align: center;
+     cursor: w-resize;
+     border-radius: 15px;
+     border-style: dotted;
+     margin: 0px 30px;
+     text-align: center;
  }
+
+ .gallery{
+    display: grid;
+    grid-template-columns: 15% 15%;
+    border: solid 2px black;
+    border-width: 90%;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+ }
+ .gallery img{
+    
+    width:90%;
+    border: solid 1px black;
+    border-width: 90%;
+    align-content: center;
+    
+ }
+ .gallery img:last-child{
+   grid-column: 1/3;
+   width:80%;
+   justify-self: center;
+
+}
