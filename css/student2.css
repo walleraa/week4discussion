@@ -61,4 +61,5 @@ body{
  .gallery img:last-child
  {
     grid-column: 1 / 4;
+    justify-self: center;
  }
